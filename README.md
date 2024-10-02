@@ -1,11 +1,11 @@
 # zerozero
 
-the sketch plugin that magically starts your page from (0,0)
+The Sketch plugin that magically organizes your Artboards at the (0,0) origin.
 
 ## installation
 
 - [download](https://cdn.jsdelivr.net/gh/flavormingo/zerozero@master/zerozero.sketchplugin.zip) the zip
-- open the zip
+- open the .zip
 - double-click zerozero.sketchplugin
 
 ## usage
