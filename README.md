@@ -4,7 +4,7 @@ the sketch plugin that magically starts your page from (0,0)
 
 ## installation
 
-- [download](../../releases/latest/download/zerozero.sketchplugin.zip) the zip
+- [download](https://cdn.jsdelivr.net/gh/flavormingo/zerozero@master/zerozero.sketchplugin.zip) the zip
 - open the zip
 - double-click zerozero.sketchplugin
 
