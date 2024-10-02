@@ -11,21 +11,21 @@
   "icon": "icon.png",
   "commands": [
     {
-      "name": "from top",
-      "identifier": "zerozero.top",
-      "script": "./top.js"
-    },
-    {
       "name": "from left",
       "identifier": "zerozero.left",
       "script": "./left.js"
+    },
+    {
+      "name": "from top",
+      "identifier": "zerozero.top",
+      "script": "./top.js"
     }
   ],
   "menu": {
     "title": "zerozero",
     "items": [
-      "zerozero.top",
-      "zerozero.left"
+      "zerozero.left",
+      "zerozero.top"
     ]
   }
 }
