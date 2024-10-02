@@ -1,0 +1,26 @@
+{
+  "name": "zerozero",
+  "description": "",
+  "version": "0.1.0",
+  "engines": {
+    "sketch": ">=49.0"
+  },
+  "skpm": {
+    "name": "zerozero",
+    "manifest": "src/manifest.json",
+    "main": "zerozero.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ],
+    "sketch-assets-file": "sketch-assets/icons.sketch"
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.9.5"
+  }
+}

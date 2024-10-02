@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "identifier": "digital.mazz.zerozero",
+  "appcast": "https://cdn.jsdelivr.net/gh/flavormingo/zerozero@master/appcast.json",
+  "homepage": "https://github.com/flavormingo/zerozero",
+  "version": "1.0.0",
+  "name": "zerozero",
+  "description": "the sketch plugin that magically starts your page from (0,0)",
+  "author": "mazz",
+  "authorEmail": "me@mazz.digital",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "from top",
+      "identifier": "zerozero.top",
+      "script": "./top.js"
+    },
+    {
+      "name": "from left",
+      "identifier": "zerozero.left",
+      "script": "./left.js"
+    }
+  ],
+  "menu": {
+    "title": "zerozero",
+    "items": [
+      "zerozero.top",
+      "zerozero.left"
+    ]
+  }
+}
