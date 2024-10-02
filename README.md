@@ -1,6 +1,6 @@
 # zerozero
 
-The Sketch plugin that magically organizes your Artboards at the (0,0) origin.
+the sketch plugin that magically starts your page from (0,0)
 
 ## installation
 
